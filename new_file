@@ -1,1 +1,5 @@
-01.01 
+SETLOCAL
+SET "string=DummyString-v1.0.0"
+SET "string=%string:*v=%"
+ECHO %string%
+GOTO :EOF
